@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+h1 {
+    margin-bottom: 109px;
+    margin-top: 192px;
+
+}
+
+#q_age {
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 63px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 11px;
+    padding: 6px;
+}
+
+#q_owns_phone {
+    margin-bottom: 31px;
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+button {
+    width: 66px;
+    height: 27px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: blanchedalmond;
+    transition: background-color 1.5s ease;
+    font-size: small;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background-color: #E1BEE7;
+    ;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#q_age:hover {
+    transform: scale(1.1);
+    background-color: azure;
+}
+
+#q_age:active {
+    transform: scale(0.99);
+}
+
+#q_owns_phone:hover {
+    transform: scale(1.2);
+    background-color: azure;
+}
+
+#q_owns_phone:active {
+    transform: scale(0.95);
+}
+
+form {
+    font-size: 20px;
+}
